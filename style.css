@@ -1,0 +1,46 @@
+*{margin: 5;
+    padding: 3;
+}
+   .h1{ 
+    color: rgb(44, 185, 74);
+    font-family: 'Courier New', Courier, monospace;
+}
+div {
+width: 400; height: 150;
+background-color: green;
+border: 4px dotted;
+padding: 40px;
+margin: 50px;
+display: inline-table;
+text-align: center;
+}
+div p{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: impact;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: black;
+}
+.azul {
+    background-color: blue;
+}
+.rojo {
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}
+.gris {
+    background-color: grey;
+}
+header {
+    background-color: rgb(157, 240, 185);
+}
+footer {
+    background-color: black;
+}
+ul {
+    list-style: none;
+}
+
