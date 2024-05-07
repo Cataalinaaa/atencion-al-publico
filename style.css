@@ -39,6 +39,7 @@ header {
 }
 footer {
     background-color: black;
+    position: sticky;
 }
 ul {
     list-style: none;
@@ -58,4 +59,31 @@ background-color: brown;
 .dia {
     border-style: dashed;
     background-color: brown;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+
+}
+p {
+    text-align: center;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: aqua;
+}
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .contenedor {
+        width: 100%;
+        padding-left: 23px ;
+        flex-direction: column-reverse;
+        background-color: blueviolet;
+    }
+    .cajas {
+        width: 100%;
+    }
 }
